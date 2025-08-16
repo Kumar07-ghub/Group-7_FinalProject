@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import DixitPortfolio from './components/DixitPortfolio';
 import RajvirPortfolio from './components/RajveerPortfolio';
-import PoojaPortfolio from './components/PoojaPortfolio';
+import PujaPortfolio from './components/PujaPortfolio';
 import TarunPortfolio from './components/TarunPortfolio';
 import Footer from './components/Footer';
 import './styles/App.css';
@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/dixit" element={<DixitPortfolio />} />
             <Route path="/rajvir" element={<RajvirPortfolio />} />
-            <Route path="/pooja" element={<PoojaPortfolio />} />
+            <Route path="/puja" element={<PujaPortfolio />} />
             <Route path="/tarun" element={<TarunPortfolio />} />
           </Routes>
         </main>
