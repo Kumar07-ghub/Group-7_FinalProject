@@ -1,14 +1,14 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Database, Server, Shield, Download, Award, Users, Clock } from 'lucide-react';
-import poojaImage from '../images/pooja.jpeg';
+import pujaImage from '../images/puja.jpeg';
 
 /* 
- * Pooja Sharma Portfolio Component
- * Created by: Pooja Sharma
+ * Puja Sharma Portfolio Component
+ * Created by: Puja Sharma
  * Role: Backend Developer & Database Specialist
  */
 
-const PoojaPortfolio: React.FC = () => {
+const PujaPortfolio: React.FC = () => {
   const skills = [
     { name: 'Python', level: 90, icon: '🐍' },
     { name: 'SQL/NoSQL', level: 95, icon: '🗄️' },
@@ -51,13 +51,13 @@ const PoojaPortfolio: React.FC = () => {
 
   return (
     <div className="portfolio-container">
-      <div className="portfolio-header pooja-gradient">
+      <div className="portfolio-header puja-gradient">
         <div className="portfolio-hero">
           <div className="portfolio-avatar-container">
             <div className="portfolio-avatar">
               <img 
-                src={poojaImage} 
-                alt="Pooja Sharma" 
+                src={pujaImage} 
+                alt="Puja Sharma" 
                 className="avatar-image"
               />
               <div className="avatar-ring"></div>
@@ -65,7 +65,7 @@ const PoojaPortfolio: React.FC = () => {
           </div>
           <div className="portfolio-info">
             <div className="portfolio-badge">Available for Hire</div>
-            <h1 className="portfolio-name">Pooja Sharma</h1>
+            <h1 className="portfolio-name">Puja Sharma</h1>
             <h2 className="portfolio-title">Backend Developer & Database Specialist</h2>
             <p className="portfolio-bio">
               Backend developer with expertise in building robust, scalable systems. 
@@ -131,7 +131,7 @@ const PoojaPortfolio: React.FC = () => {
                 </div>
                 <div className="skill-bar">
                   <div 
-                    className="skill-progress pooja-progress" 
+                    className="skill-progress puja-progress" 
                     style={{ width: `${skill.level}%` }}
                   ></div>
                 </div>
@@ -161,7 +161,7 @@ const PoojaPortfolio: React.FC = () => {
                 <p className="project-description">{project.description}</p>
                 <div className="project-tech">
                   {project.tech.map((tech) => (
-                    <span key={tech} className="tech-tag pooja-tag">{tech}</span>
+                    <span key={tech} className="tech-tag puja-tag">{tech}</span>
                   ))}
                 </div>
               </div>
@@ -202,7 +202,7 @@ const PoojaPortfolio: React.FC = () => {
           </div>
           <div className="experience-timeline">
             <div className="timeline-item">
-              <div className="timeline-marker pooja-marker"></div>
+              <div className="timeline-marker puja-marker"></div>
               <div className="timeline-content">
                 <h4>Senior Backend Developer</h4>
                 <span className="timeline-period">2021 - Present</span>
@@ -210,7 +210,7 @@ const PoojaPortfolio: React.FC = () => {
               </div>
             </div>
             <div className="timeline-item">
-              <div className="timeline-marker pooja-marker"></div>
+              <div className="timeline-marker puja-marker"></div>
               <div className="timeline-content">
                 <h4>Database Administrator</h4>
                 <span className="timeline-period">2020 - 2021</span>
@@ -224,4 +224,4 @@ const PoojaPortfolio: React.FC = () => {
   );
 };
 
-export default PoojaPortfolio;
+export default PujaPortfolio;

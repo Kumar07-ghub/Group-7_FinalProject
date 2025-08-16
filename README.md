@@ -14,7 +14,7 @@ This is a group portfolio SPA built with React, TypeScript, Vite, and Tailwind C
 
 - Dixit Gami – Full Stack Developer
 - Rajvir Singh – Frontend Developer & UI/UX Designer
-- Pooja Sharma – Backend Developer & Database Specialist
+- Puja Sharma – Backend Developer & Database Specialist
 - TarunKumar Abburi – DevOps Engineer & Cloud Architect
 
 ## Getting Started

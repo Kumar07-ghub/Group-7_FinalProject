@@ -19,9 +19,9 @@ const Home: React.FC = () => {
       color: 'member-card-cyan'
     },
     {
-      name: 'Pooja Sharma',
+      name: 'Puja Sharma',
       role: 'Backend Developer',
-      path: '/pooja',
+      path: '/puja',
       specialty: 'Database & APIs',
       color: 'member-card-orange'
     },
